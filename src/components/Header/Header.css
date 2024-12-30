@@ -1,0 +1,39 @@
+.navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fcd900;
+  }
+  
+  .highlight {
+    color: #fcd900;
+  }
+  
+  .hero {
+    padding: 100px 20px;
+  }
+  
+ 
+  
+  .btn-hello {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fcd900;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  
+  .btn-hello:hover {
+    background-color: #fcd900;
+    color: #000;
+  }
+  .navbar-toggler.custom-toggler {
+    background-color: #fcd900; /* Change background color */
+    border: 2px solid #fff; /* Change border color */
+}
+.about{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}

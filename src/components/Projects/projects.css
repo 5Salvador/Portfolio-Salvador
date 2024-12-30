@@ -1,0 +1,33 @@
+.pro{
+    margin-top: 10% !important;
+}
+.pro2{
+  margin-bottom: 10% !important;
+}
+.custom-card {
+    margin-top: 20% !important;
+    margin-bottom: 10% !important;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .custom-card img {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color:  #f7f7f7;
+  }
+  .custom-card h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .custom-card p {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  .text{
+    background-color:  #f7f7f7;
+    font-weight: bold;
+  }
