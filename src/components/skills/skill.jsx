@@ -101,13 +101,7 @@ const skill = () => {
                 
                            <h2>Node.js</h2>
               </div>
-              <div className="col-sm-3 d-flex flex-column align-items-center">
-                  <i className="" style={{ fontSize: '7rem' }}>
-                  <img width="100" height="100" src={node} alt="react"/>
-                </i>
-                
-                           <h2>Node.js</h2>
-              </div>
+              
               <div className="col-sm-3 d-flex flex-column align-items-center">
                   <i className="" style={{ fontSize: '7rem' }}>
                   <img width="100" height="100" src={front} alt="react"/>
