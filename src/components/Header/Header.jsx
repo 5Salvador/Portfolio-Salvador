@@ -3,6 +3,8 @@ import "./Header.css"; // Create an App.css for additional styling
 import image from "../../assets/salvador.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import resume from '../../assets/Resume-Salvaddor.pdf';
+
 
 const Header = ( { onScroll}) => {
   useEffect(() => {
@@ -10,6 +12,12 @@ const Header = ( { onScroll}) => {
     
     });
   }, []);
+
+  const file = resume;
+
+  const handleClick = () => {
+    window.open(file, '_blank', 'noopener,noreferrer');
+  }
 
   return (
     <div>
@@ -95,10 +103,16 @@ const Header = ( { onScroll}) => {
           alt="Profile"
           className="profile-img img-fluid"
         />
-
-          </div>
         
+          </div>
         </div>
+        <button className="btn btn-primary btn-lg btn-rounded" onClick={handleClick}>
+      Open Resume
+    </button>
+        
+           
+            
+        
         
       </div>
       <hr></hr>
